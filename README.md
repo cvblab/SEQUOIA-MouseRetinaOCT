@@ -32,7 +32,7 @@ Make sure you have Python 3.8+ installed. Then run:
 pip install -r requirements.txt
 ```
 
-> **Note:** Some preprocessing steps are written in MATLAB. You will need a compatible version of MATLAB to execute those scripts.
+
 
 ### 3. File Structure
 
@@ -55,7 +55,7 @@ SEQUOIA-RodentOCT/
 └── 3_postprocessing/             # MATLAB scripts for postprocessing pseudo-masks
     └── pseudo_mask_refinement.m  # Code for refining the pseudo-masks obtained during inference.
 ```
-
+> **Note:** Some preprocessing steps are written in MATLAB. You will need a compatible version of MATLAB R2019b or superior to execute those scripts.
 ### 4. Run the code
 
 To train the model, run the following command in the terminal:
