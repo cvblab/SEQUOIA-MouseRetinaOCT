@@ -21,7 +21,7 @@ Given the limited availability of expert annotations, we implemented a **teacher
 
 ```bash
 git clone https://github.com/cvblab/SEQUOIA-RodentOCT
-cd SEQUOIA-RodentOCT
+
 ```
 
 ### 2. Install dependencies
