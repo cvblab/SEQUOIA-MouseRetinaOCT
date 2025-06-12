@@ -7,6 +7,12 @@ configures data loaders, defines the U-Net model, and trains it with or without 
 Note: When training without validation, the number of epochs is fixed to the
 best epoch previously observed during training with validation. This ensures
 the model used for pseudo-mask inference has optimal performance.
+
+Expected data directory structure:
+<data_folder>/training/Images: .mat volumes containing the training B-Scans
+<data_folder>/training/Mask: .mat volumes containing the corresponding training masks
+<data_folder>/validation/Images: .mat volumes containing the validation B-Scans
+<data_folder>/validation/Mask: .mat volumes containing the corresponding validation masks
 """
 
 import os
