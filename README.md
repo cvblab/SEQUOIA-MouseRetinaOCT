@@ -1,17 +1,11 @@
-# SEQUOIA-RodentOCT
+# A Curated OCT Dataset of Ex-Vivo Mice Retina for Deep Learning Models
 
-## Overview
+![Aproach](teacher-student.png)
 
-**Title:** *A Curated OCT Dataset of Ex-Vivo Mice Retinas for Deep Learning Models*
+## Description
+Optical coherence tomography (OCT) is a fundamental technology in ophthalmic research, providing high-resolution 3D cross-sections of the retina. Algorithms for retinal cell layer segmentation provide critical insights into retinal structure and pathology. While deep learning-based segmentation methods have proven effective in analysing human retinal OCT B-scans, their application to rodent retinas remains limited due to the lack of publicly available OCT datasets. This limitation constrains the development of AI models for preclinical animal studies aimed at improving retinal disease diagnosis and treatment. 
 
-**Description:**  
-Optical coherence tomography (OCT) is a fundamental technology in ophthalmic research, providing high-resolution 3D cross-sections of the retina. Algorithms for retinal cell layer segmentation provide critical information on retinal structure and pathology.
-
-Although novel segmentation algorithms based on deep learning approaches have proven effective in analysing human retinal OCT B-scans, their application to rodent retinas remains limited — primarily due to the lack of publicly available relevant OCT datasets. This limitation constrains the development of generalisable AI models adapted to preclinical animal studies, which are crucial for improving diagnosis and treatment of retinal diseases.
-
-To address this gap, we present a **novel dataset** composed of OCT volumes of *ex-vivo* rodent retinas embedded in aqueous media — a sample type rarely represented in existing datasets, which predominantly focus on human retinas. Our dataset is meticulously annotated to support the segmentation of the **retinal nerve fibre layer (RNFL)**, a critical task for understanding retinal health and disease progression.
-
-Given the limited availability of expert annotations, we implemented a **teacher-student training strategy** to generate pseudo-masks, enabling large-scale validation of the dataset with minimal expert input. This dataset offers a scalable and foundational resource for developing artificial intelligence-driven models in rodent retinal imaging and supports further advancements in preclinical ophthalmic diagnostics.
+To address this, we present a **novel dataset** of OCT volumes from ex-vivo rodent retinas embedded in aqueous media—a sample type rarely represented in existing datasets, which mainly focus on human retinas. Our dataset comprises 22 OCT volumes to support segmentation of the **upper retinal cell layers**, essential for assessing retinal health and disease progression. Due to limited expert annotations, we adopted a **teacher-student training strategy** to generate pseudo-masks, enabling validation with minimal expert input. This dataset enables scalable AI applications in rodent retinal imaging for preclinical research.
 
 ---
 
@@ -33,8 +27,7 @@ pip install -r requirements.txt
 ```
 
 
-
-### 3. File Structure
+### 3. Code Structure
 
 The repository is divided into three main folders:
 
@@ -73,38 +66,25 @@ python compute_metrics.py
 ```
 ---
 
-## Acknowledgment
+## Data source
 
-TBC
+The data used is available at Figshare: LINK.
 
 ---
 
 ## Citation
 
-TBC
-
 If you use this dataset, code, or methodology in your research, please cite:
 
 ```
 @article{SEQUOIA-RodentOCT,
-  title={A Curated OCT Dataset of Ex-Vivo Mice Retinas for Deep Learning Models},
-  author={Ferguson, A. and García, T. and et al.},
+  title={A Curated OCT Dataset of Ex-Vivo Mice Retina for Deep Learning Models},
+  author={Fernando Garc\'ia-Torres, \'Alvaro Barroso, Roc\'io del Amor, Sandra Morales, Steffi Ketelhut, Peter Heiduschka, Björn Kemper, Jürgen Schnekenburger, Valery Naranjo},
   journal={To be updated upon publication},
-  year={2024}
+  year={2025}
 }
 ```
 
 *A DOI or final citation will be added once the dataset is officially published.*
-
----
-
-## License
-
-TBC
-
-This repository is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for more information.
-
----
 
 
