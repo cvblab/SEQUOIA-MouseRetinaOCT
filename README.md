@@ -34,7 +34,7 @@ The repository is divided into three main folders:
 ```
 SEQUOIA-RodentOCT/
 │
-├── 1_preprocessing/              # MATLAB scripts to load OCT volumes and convert them to .mat format
+├── 1_processing/              # MATLAB scripts to load OCT volumes and convert them to .mat format
 │   └── load_oct_to_mat.m         # Main function for preprocessing volumes
 │
 ├── 2_segmentation_model/         # PyTorch implementation of the teacher-student segmentation strategy
