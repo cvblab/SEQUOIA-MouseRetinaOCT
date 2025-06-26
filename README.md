@@ -1,4 +1,4 @@
-# A Curated OCT Dataset of Ex-Vivo Mice Retina for Deep Learning Models
+# A Curated OCT Datbase of Ex-Vivo Mice Retina for Deep Learning Models
 
 ![Aproach](teacher-student.png)
 
