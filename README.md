@@ -1,11 +1,9 @@
-# A Curated OCT Datbase of Ex-Vivo Mice Retina for Deep Learning Models
+# A Curated OCT Database of Ex-Vivo Mouse Retinas for Deep Learning Models
 
 ![Aproach](teacher-student.png)
 
 ## Description
-Optical coherence tomography (OCT) is a fundamental technology in ophthalmic research, providing high-resolution 3D cross-sections of the retina. Algorithms for retinal cell layer segmentation provide critical insights into retinal structure and pathology. While deep learning-based segmentation methods have proven effective in analysing human retinal OCT B-scans, their application to rodent retinas remains limited due to the lack of publicly available OCT datasets. This limitation constrains the development of AI models for preclinical animal studies aimed at improving retinal disease diagnosis and treatment. 
-
-To address this, we present a **novel dataset** of OCT volumes from ex-vivo rodent retinas embedded in aqueous media—a sample type rarely represented in existing datasets, which mainly focus on human retinas. Our dataset comprises 22 OCT volumes to support segmentation of the **upper retinal cell layers**, essential for assessing retinal health and disease progression. Due to limited expert annotations, we adopted a **teacher-student training strategy** to generate pseudo-masks, enabling validation with minimal expert input. This dataset enables scalable AI applications in rodent retinal imaging for preclinical research.
+Optical coherence tomography (OCT) is a minimally invasive technology in ophthalmic research, providing high-resolution 3D cross-sections of the retina. Algorithms for retinal layer segmentation provide essential insights into retinal structure and pathology. While artificial intelligence (AI) segmentation methods have proven effective in analysing human retinal OCT B-scans, their application to rodent retinas remains limited due to the lack of publicly available OCT datasets. This limitation constrains the development of AI models for preclinical animal studies aiming to improve retinal disease diagnosis and treatment. To address this, we provide a **novel dataset** of OCT volumes from ex-vivo mouse retinas embedded in aqueous media—a sample type rarely represented in existing datasets, mainly focused on human retinas. Our dataset comprises 22 OCT volume scans to support segmentation of **upper retinal cell layers**, crucial for assessing retinal health and disease progression. Due to limited expert annotations, we adopted a **teacher-student training strategy** to generate pseudo-masks, enabling validation with minimal expert input. The dataset enables scalable AI applications in rodent retinal imaging for preclinical research.
 
 ---
 
