@@ -66,7 +66,7 @@ python compute_metrics.py
 
 ## Data source
 
-The data used is available at Figshare: LINK.
+The data used is available at Figshare: https://doi.org/10.6084/m9.figshare.29153555
 
 ---
 
@@ -76,7 +76,7 @@ If you use this dataset, code, or methodology in your research, please cite:
 
 ```
 @article{SEQUOIA-RodentOCT,
-  title={A Curated OCT Dataset of Ex-Vivo Mice Retina for Deep Learning Models},
+  title={A Curated OCT Database of Ex-Vivo Mouse Retinas for Deep Learning Models},
   author={Fernando Garc\'ia-Torres, \'Alvaro Barroso, Roc\'io del Amor, Sandra Morales, Steffi Ketelhut, Peter Heiduschka, Björn Kemper, Jürgen Schnekenburger, Valery Naranjo},
   journal={To be updated upon publication},
   year={2025}
