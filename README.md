@@ -3,7 +3,7 @@
 ![Aproach](teacher-student.png)
 
 ## Description
-Optical coherence tomography (OCT) is a minimally invasive technology in ophthalmic research, providing high-resolution 3D cross-sections of the retina. Algorithms for retinal layer segmentation provide essential insights into retinal structure and pathology. While artificial intelligence (AI) segmentation methods have proven effective in analysing human retinal OCT B-scans, their application to rodent retinas remains limited due to the lack of publicly available OCT datasets. This limitation constrains the development of AI models for preclinical animal studies aiming to improve retinal disease diagnosis and treatment. To address this, we provide a **novel dataset** of OCT volumes from ex-vivo mouse retinas embedded in aqueous media—a sample type rarely represented in existing datasets, mainly focused on human retinas. Our dataset comprises 22 OCT volume scans to support segmentation of **upper retinal cell layers**, crucial for assessing retinal health and disease progression. Due to limited expert annotations, we adopted a **teacher-student training strategy** to generate pseudo-masks, enabling validation with minimal expert input. The dataset enables scalable AI applications in rodent retinal imaging for preclinical research.
+Optical coherence tomography (OCT) is a minimally invasive technology in ophthalmic research, providing high-resolution 3D cross-sections of the retina. Algorithms for retinal layer segmentation provide essential insights into retinal structure and pathology. While artificial intelligence (AI) segmentation methods have proven effective in analysing human retinal OCT B-scans, their application to rodent retinas remains limited due to the lack of publicly available OCT datasets. This limitation constrains the development of AI models for preclinical animal studies aiming to improve retinal disease diagnosis and treatment. To address this, we provide a **novel dataset** of OCT volumes from ex-vivo mouse retinas embedded in aqueous media—a sample type rarely represented in existing datasets, mainly focusing on human retinas. Our dataset comprises 22 OCT volume scans to support **segmentation of upper retinal cell layers**, crucial for assessing retinal health and disease progression. Due to limited expert annotations, we adopted a **Teacher-Student training strategy** to generate pseudo-masks, enabling validation with minimal expert input. The dataset enables scalable AI applications in rodent retinal imaging for preclinical research.
 
 ---
 
@@ -12,7 +12,7 @@ Optical coherence tomography (OCT) is a minimally invasive technology in ophthal
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/cvblab/SEQUOIA-RodentOCT
+git clone https://github.com/cvblab/SEQUOIA-MouseRetinaOCT
 
 ```
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 The repository is divided into three main folders:
 
 ```
-SEQUOIA-RodentOCT/
+SEQUOIA-MouseRetinaOCT/
 │
 ├── 1_processing/                 # MATLAB scripts to load OCT volumes and convert them to .mat format
 │   └── load_oct_to_mat.m         # Main function for preprocessing volumes
@@ -75,7 +75,7 @@ The data used is available at Figshare: https://doi.org/10.6084/m9.figshare.2915
 If you use this dataset, code, or methodology in your research, please cite:
 
 ```
-@article{SEQUOIA-RodentOCT,
+@article{SEQUOIA-MouseRetinaOCT,
   title={A Curated OCT Database of Ex-Vivo Mouse Retinas for Deep Learning Models},
   author={Fernando Garc\'ia-Torres, \'Alvaro Barroso, Roc\'io del Amor, Sandra Morales, Steffi Ketelhut, Peter Heiduschka, Björn Kemper, Jürgen Schnekenburger, Valery Naranjo},
   journal={To be updated upon publication},
